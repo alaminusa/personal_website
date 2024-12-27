@@ -1,0 +1,131 @@
+body{
+    font-family: "Work Sans", serif;
+}
+.header{
+    background-image: url("images/header-bg.png");
+    width: 100%;
+    height: 95vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero img{
+    width: 100%;
+}
+.half_width{
+    width: 40%;
+}
+.header h1{
+   font-size: 80px; 
+   color: rgb(8, 83, 244);
+   font-weight: 700;
+}
+.header h2{
+    font-size: 50px; 
+    font-weight: 400;
+    line-height: 2px;
+}
+.header button{
+    background-color: rgb(8, 83, 244);
+    padding: 10px 40px;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.biography{
+    background-image: url("images/biography-bg.png");
+    width: 100%;
+    height: 95vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.biography{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.biography h1{
+    font-size: 80px; 
+    color: rgb(244, 8, 173);
+    font-weight: 700;
+}
+.biography h2{
+    font-size: 50px; 
+     font-weight: 400;
+     line-height: 2px;
+}
+.biography button{
+     background-color: rgb(8, 83, 244);
+     padding: 10px 40px;
+     color: white;
+     border-radius: 5px;
+     font-size: 16px;
+}
+.latest{
+    background-image: url("images/latest-work-bg.png");
+    width: 100%;
+    height: 95vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.work{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.work img{
+    width: 30%;
+}
+.latest h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 80px;
+    color: rgb(8, 83, 244);;
+}
+.clint{
+    background-image: url("images/latest-work-bg.png");
+    width: 100%;
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.bg{
+    background-image: linear-gradient(90deg, rgb(214, 24, 218), rgb(0, 42, 255));
+    width: 40%;
+    align-items: center;
+    margin-left: 30%;
+    border-radius: 10px;
+    color: white;
+    padding: 20px 0;
+}
+.clint h3{
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+.clint h4{
+    font-size: 20px;
+    line-height: 2px;
+}
+.clint h5{
+    font-size: 15px;
+    font-weight: 300;
+    color: grey;
+    line-height: 2px;
+    padding-bottom: 30px;
+}
+footer{
+    text-align: center;
+    padding-top: 60px;
+}
